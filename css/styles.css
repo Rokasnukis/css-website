@@ -1,0 +1,150 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-weight: 400;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  color: #60bfbf;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #60bfbf;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999e;
+}
+
+a {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999e;
+  text-decoration: none;
+  padding: 0 20px;
+}
+
+a:hover {
+  color: #eaf6f6;
+}
+
+p {
+  font-size: 14px;
+  color: #181b1e;
+  line-height: 2;
+}
+
+hr {
+  border-top: 6px dotted #d3d3d3;
+  border-bottom: none;
+  width: 4%;
+}
+
+.top-container {
+  background-color: #eaf6f6;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {}
+
+.bottom-container {
+  background-color: #66bfbf;
+  padding: 50px 0;
+}
+
+.atomic {
+  text-decoration: underline;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.bio {
+  margin-top: 10px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+}
+
+.book-img {
+  width: 15%;
+  float: left;
+  margin-right: 30px;
+}
+
+.speaker-img {
+  width: 15%;
+  float: right;
+  margin-left: 30px;
+}
+
+.profile {
+  padding: 70px 0;
+}
+
+.bio {
+  width: 30%;
+  margin: auto;
+}
+
+.skills {
+  margin-top: 100px;
+}
+
+.contact-me {
+  margin: 100px 0;
+}
+
+.contact-text {
+  width: 40%;
+  margin: auto;
+}
+
+.btn {
+  background-image: linear-gradient(to right, #0fc8ce 0%, #0fb0b7 51%, #109ba0 100%)
+}
+
+.btn {
+  font-family: 'Montserrat', sans-serif;
+  width: 140px;
+  margin: 40px auto 0 auto;
+  padding: 10px 5px;
+  text-align: center;
+  text-transform: uppercase;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+}
+
+.btn:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
+
+.copy {
+  margin-bottom: 0;
+  color: #EAF6F6;
+  font-size: 0.75rem;
+}
